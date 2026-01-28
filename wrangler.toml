@@ -1,0 +1,10 @@
+name = "cgmmonitorsas"
+compatibility_date = "2024-01-01"
+
+# If this is a static site (Cloudflare Pages style build)
+[build]
+command = "npm run build"
+
+# Change ./dist to wherever your build output actually goes
+[site]
+bucket = "./dist"
